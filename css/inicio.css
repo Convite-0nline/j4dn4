@@ -21,7 +21,7 @@ body{
     margin: 10px;
     margin-bottom: 60px;
     
-    width: 80%;
+    width: 90%;
     max-width: 600px;
     height: 500px;
     display: flex;
@@ -100,7 +100,7 @@ body{
 
 .tempo-juntos{
     
-    width: 85%;
+    width: 90%;
     max-width: 600px;
     height: 550px;
     background-color: rgb(40, 40, 40);
@@ -192,8 +192,8 @@ body{
 }
 
 .mensagem{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     background-image: linear-gradient(to bottom, red, black);
     font-size: 1.7em;
     display: flex;
@@ -238,8 +238,8 @@ body{
 
 .momentos{
     position: relative;
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     background-color: rgba(255, 255, 255, 0.504);
     background-image: url(../img/momentos.png);
     background-position: top center;
@@ -259,3 +259,34 @@ body{
     animation: aumentar 2s linear infinite;
     box-shadow: 0px 0px 10px  white;
 }
+
+
+.roda-pe{
+            background-image: linear-gradient(to right,#003324,#00513b,#003324);
+            position: relative;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 5px 10px 10px;
+            width: 100%;
+            z-index: 999;
+        }
+
+        .roda-pe img{
+            width: 100px;
+        }
+
+        .roda-pe p{
+            color: white;
+        }
+        .roda-pe .links{
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+        .roda-pe .links a{
+            text-decoration: none;
+            color: white;
+        }
