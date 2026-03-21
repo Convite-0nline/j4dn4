@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     position: relative;
 
-    background-image: linear-gradient(to bottom, red,black, white);
+    background-image: linear-gradient(to bottom, #ff4d6d, #590d22);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -202,7 +202,7 @@ body{
 .mensagem{
     width: 350px;
     height: 200px;
-    background-image: linear-gradient(to bottom, red, black);
+     background-image: linear-gradient(to bottom, #ff758f, #c9184a);
     font-size: 1.7em;
     display: flex;
     flex-flow: row wrap;
