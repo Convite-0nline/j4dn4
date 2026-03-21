@@ -91,6 +91,13 @@ header a:hover{
     color: #fff;
     text-shadow: 0 5px 10px #0004;
 }
+.slider .list .item .content .description{
+    text-shadow: 
+    1px 1px black,
+    -1px -1px black,
+    1px -1px black,
+    -1px 1px black;
+}
 
 .slider .list .item .content .title,
 .slider .list .item .content .type{
