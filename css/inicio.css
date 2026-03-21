@@ -10,14 +10,32 @@
 body{
     width: 100%;
     min-height: 100vh;
+    max-height: 100vh;
     position: relative;
-
-    background-image: linear-gradient(to bottom, #ff4d6d, #590d22);
+    background-image: url('../img/fundo-body.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .album-musica{
+    background-color: #ffffff37;
+    border-radius: 15px;
+    padding: 15px;
     margin: 10px;
     margin-bottom: 60px;
     
@@ -108,28 +126,24 @@ body{
 
 .tempo-juntos{
     
-    width: 90%;
+    width: 95%;
     max-width: 600px;
-    height: 550px;
-    background-color: rgb(40, 40, 40);
+    height: 300px;
+    background-color: rgba(40, 40, 40, 0.244);
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 50px;
-    padding-bottom: 10px;
     box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.29);
     border: 2px solid black;
     
 
 }
 .foto-tempo-junto{
-    background-image: url('../img/foto-tempo.jpg');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px 20px 0 0;
+    background-color: rgba(255, 0, 0, 0.201);
+    border-radius: 0px 20px 20px 0px;
     width: 100%;
-    height: 350px;
+    height: 100%;
     padding: 10px;
     color: black;
     
@@ -142,7 +156,7 @@ body{
    
 }
 .text{
-   padding: 20px;
+   padding: 8px;
 }
 .tempo-junto{
     
@@ -154,12 +168,9 @@ body{
 
 
 }
-.tempo1{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color: rgb(40, 40, 40);
+.tempo-min p{
     
+   background-color: #003324;
 }
 #dias,#horas,#minutos,#segundos{
     animation: aumentarLetra 1s linear infinite;
@@ -172,32 +183,9 @@ body{
         transform: scale(1.4);
     }
 }
-.tempo1 p {
-    background-image: linear-gradient(to top, black,black, rgba(149, 125, 67, 0.464),black,black);
-    padding: 20px;
-    border-radius: 10px;
 
-    width: 90px;
-    height: 60px;
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.626);
-    text-shadow: 
-    1px 1px black,
-    -1px -1px black,
-    1px -1px black,
-    -1px 1px black
-    ;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.item {
-    margin-top: 30px;
-    width: 50%;    
-   
-}
 
 .mensagem{
     width: 350px;
