@@ -30,7 +30,7 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 .cabecalho div{
@@ -54,12 +54,12 @@ body{
 
 .tempo{
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
 }
 .nome-musica{
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 0.2em;
 }
 .botoes{
@@ -81,7 +81,7 @@ body{
     background: none;
     border: none;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.382);
+    color: rgba(0, 0, 0, 0.382);
 }
 #btn-play-pause{
     border: black solid 2px;
