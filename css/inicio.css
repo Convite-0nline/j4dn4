@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     position: relative;
 
-    background-image: linear-gradient(to bottom, #f1dbcd, #00513b,#003324);
+    background-image: linear-gradient(to bottom, #f1dbcd,#003324);
     display: flex;
     align-items: center;
     flex-direction: column;
